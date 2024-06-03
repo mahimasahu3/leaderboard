@@ -80,3 +80,31 @@ body {
   width: 100%;
   padding: 5px;
 }
+.leaderboard-row:hover {
+  background-color: #f0f0f0; /* Change to desired hover color */
+}
+
+.view-action-link {
+  border: 1px solid #ccc; /* Border color for View/Action link */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.rank-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e27498; /* Background color for rank circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.view-action-link {
+  border: 1px solid #e27498; /* Border color for View/Action link */
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e27498; /* Background color for View/Action link */
+  color: white;
+}
