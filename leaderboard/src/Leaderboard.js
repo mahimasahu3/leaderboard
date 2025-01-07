@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Leaderboard.css';
 import { MdOutlineTrendingUp, MdOutlineTrendingDown } from 'react-icons/md';
-
+//just learning git 
 const Leaderboard = () => {
   const [data, setData] = useState([
     { rankname: 'John Doe', calmarratio: '2.5', calmarTrend: 'up', overprofit: '150%', avgDailyProfit: '1.5%', winPercentage: '75%', price: '1000', action: '' },
